@@ -39,7 +39,6 @@ for (file in list){
 # "CHAP8.DAT/CIGAD"
 # "CHAP9.DAT/KLEM"
 
-# Hard code
 # "CHAP8.DAT/CIGAD"
 file = "CHAP8.DAT/CIGAD"
 txt <- readLines(con = file)
