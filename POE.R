@@ -1,8 +1,8 @@
 # 20200519 Ronald FUNG
 
 getwd()
-ipath <- "C:/Users/rfung/Desktop/POE/raw/berndt-econometrics-master/data/floppy_ver"
-opath <- "C:/Users/rfung/Desktop/POE/data"
+ipath <- "./POE/raw/berndt-econometrics-master/data/floppy_ver"
+opath <- "./POE/data"
 setwd(ipath)
 
 list <- list.files(path = ipath, recursive = TRUE)
